@@ -90,8 +90,8 @@ export default function DashboardPage() {
           {[
             ["Get testnet USDC", "https://faucet.circle.com"],
             ["ArcScan explorer", "https://testnet.arcscan.app"],
-            ["arc-agent-payments", "https://github.com/sethoshi18/arc-agent-payments"],
-            ["arc-agent-market", "https://github.com/sethoshi18/arc-agent-market"],
+            ["Agent Payments", "https://github.com/Stigmetry/agent-payments"],
+            ["Agent Market", "https://github.com/Stigmetry/agent-market"],
             ["Arc docs", "https://docs.arc.io"],
             ["Circle Console", "https://console.circle.com"],
           ].map(([label, href]) => (

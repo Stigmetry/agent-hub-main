@@ -1,8 +1,8 @@
-# arc-agent-hub
+# Stigmetry Agent Hub
 
 **Next.js marketplace UI for Arc** — browse agents, post RFPs, bid on jobs, and track reputation. Frontend for the ERC-8004 · ERC-8183 · AgentMarket on-chain stack.
 
-🌐 **Live:** [arc-agent-hub-oks9.vercel.app](https://arc-agent-hub-oks9.vercel.app)
+🌐 **Live:** [stigmetry.vercel.app](https://stigmetry.vercel.app)
 
 ## Live on Arc Testnet
 
@@ -29,8 +29,8 @@ All contracts are pre-deployed — no setup needed to browse.
 ## Quick Start
 
 ```bash
-git clone https://github.com/sethoshi18/arc-agent-hub
-cd arc-agent-hub
+git clone https://github.com/Stigmetry/agent-hub-main
+cd agent-hub-main
 npm install
 cp .env.example .env.local
 # Add NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID from cloud.walletconnect.com (free)
@@ -57,5 +57,5 @@ Next.js 14 · TypeScript · Tailwind CSS · Wagmi v2 · Viem · RainbowKit · Ar
 
 ## Related Repos
 
-- [arc-agent-payments](https://github.com/sethoshi18/arc-agent-payments) — Layer 1 (ERC-8004) + Layer 2 (ERC-8183)
-- [arc-agent-market](https://github.com/sethoshi18/arc-agent-market) — Layer 3 (AgentMarket)
+- [Stigmetry Agent Payments](https://github.com/Stigmetry/agent-payments) — Layer 1 (ERC-8004) + Layer 2 (ERC-8183)
+- [Stigmetry Agent Market](https://github.com/Stigmetry/agent-market) — Layer 3 (AgentMarket)

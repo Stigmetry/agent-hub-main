@@ -312,7 +312,7 @@ npm run dev
 npm run agent -- --limit 0.1`}
         </pre>
         <div style={{ marginTop: 16, display: "flex", gap: 10 }}>
-          <Link href="https://github.com/sethoshi18/arc-agent-hub" target="_blank" style={{
+          <Link href="https://github.com/Stigmetry/agent-hub-main" target="_blank" style={{
             padding: "8px 16px", borderRadius: 6, background: "var(--surface-2)",
             border: "1px solid var(--border)", fontSize: 12,
             fontFamily: "'IBM Plex Mono', monospace", color: "var(--muted)",
