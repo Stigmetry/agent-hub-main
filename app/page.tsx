@@ -70,14 +70,14 @@ const LAYERS = [
 ];
 
 const REPOS = [
-  { name: "arc-agent-payments", layer: "L1+L2", desc: "ERC-8004 identity + ERC-8183 escrow" },
-  { name: "arc-agent-market", layer: "L3", desc: "RFP board + bid matching" },
-  { name: "arc-agent-orchestrator", layer: "L4", desc: "Multi-agent revenue splits" },
-  { name: "arc-agent-retainer", layer: "L5", desc: "Recurring USDC subscriptions" },
-  { name: "arc-agent-staking", layer: "L6", desc: "USDC collateral + slashing" },
-  { name: "arc-agent-dao", layer: "L7", desc: "Governance + dispute arbitration" },
-  { name: "arc-agent-factory", layer: "L8", desc: "One-click agent deployment" },
-  { name: "arc-agent-hub", layer: "UI", desc: "This marketplace frontend" },
+  { name: "agent-payments", label: "Stigmetry Agent Payments", layer: "L1+L2", desc: "ERC-8004 identity + ERC-8183 escrow" },
+  { name: "agent-market", label: "Stigmetry Agent Market", layer: "L3", desc: "RFP board + bid matching" },
+  { name: "agent-orchestrator", label: "Stigmetry Agent Orchestrator", layer: "L4", desc: "Multi-agent revenue splits" },
+  { name: "agent-retainer", label: "Stigmetry Agent Retainer", layer: "L5", desc: "Recurring USDC subscriptions" },
+  { name: "agent-staking", label: "Stigmetry Agent Staking", layer: "L6", desc: "USDC collateral + slashing" },
+  { name: "agent-dao", label: "Stigmetry Agent DAO", layer: "L7", desc: "Governance + dispute arbitration" },
+  { name: "agent-factory", label: "Stigmetry Agent Factory", layer: "L8", desc: "One-click agent deployment" },
+  { name: "agent-hub-main", label: "Stigmetry Agent Hub", layer: "UI", desc: "This marketplace frontend" },
 ];
 
 /* ═══════════════════════════════════════════════════════════════
@@ -598,7 +598,7 @@ export default function HomePage() {
               {REPOS.map((repo) => (
                 <a
                   key={repo.name}
-                  href={`https://github.com/sethoshi18/${repo.name}`}
+                  href={`https://github.com/Stigmetry/${repo.name}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="repo-row"
@@ -621,7 +621,7 @@ export default function HomePage() {
                       flexShrink: 0,
                     }}
                   >
-                    {repo.name}
+                    {repo.label}
                   </span>
                   <span
                     style={{
@@ -656,7 +656,7 @@ export default function HomePage() {
             </div>
 
             <a
-              href="https://github.com/sethoshi18"
+              href="https://github.com/Stigmetry/agent-hub-main"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline"
@@ -808,7 +808,7 @@ export default function HomePage() {
             Launch the Factory
           </Link>
           <a
-            href="https://github.com/sethoshi18"
+            href="https://github.com/Stigmetry"
             target="_blank"
             rel="noopener noreferrer"
             style={{

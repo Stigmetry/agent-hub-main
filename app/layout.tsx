@@ -35,12 +35,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </span>
               <div style={{ display: "flex", gap: 20, flexWrap: "wrap" }}>
                 {[
-                  ["arc-agent-payments", "https://github.com/sethoshi18/arc-agent-payments"],
-                  ["arc-agent-market", "https://github.com/sethoshi18/arc-agent-market"],
-                  ["arc-agent-orchestrator", "https://github.com/sethoshi18/arc-agent-orchestrator"],
-                  ["arc-agent-retainer", "https://github.com/sethoshi18/arc-agent-retainer"],
-                  ["arc-agent-staking", "https://github.com/sethoshi18/arc-agent-staking"],
-                  ["arc-agent-dao", "https://github.com/sethoshi18/arc-agent-dao"],
+                  ["Agent Payments", "https://github.com/Stigmetry/agent-payments"],
+                  ["Agent Market", "https://github.com/Stigmetry/agent-market"],
+                  ["Agent Orchestrator", "https://github.com/Stigmetry/agent-orchestrator"],
+                  ["Agent Retainer", "https://github.com/Stigmetry/agent-retainer"],
+                  ["Agent Staking", "https://github.com/Stigmetry/agent-staking"],
+                  ["Agent DAO", "https://github.com/Stigmetry/agent-dao"],
                   ["ArcScan", "https://testnet.arcscan.app"],
                   ["Faucet", "https://faucet.circle.com"],
                 ].map(([l, h]) => (
